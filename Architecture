@@ -1,0 +1,34 @@
+2.2ARCHITECTURE PATTERNS
+
+Amazon Lex: The chatbot interface
+ 
+Amazon Lex is used to build the conversational interface for the chatbot. Lex handles the user's text input and processes the natural language.
+ 
+It uses intents, which represent actions the chatbot should take in response to user input.
+ 
+Slots are used within intents to capture user-provided data (like a name, date, etc.).
+
+AWS Lambda: Business Logic and Processing
+ 
+AWS Lambda functions are invoked from Amazon Lex to process logic and interact with other services (databases, APIs, etc.).
+
+Lambda functions can be triggered when Lex needs to respond with dynamic data, process user input, or interact with other AWS resources.
+ 
+Lambda allows you to decouple your backend processing from Lex and execute business logic without provisioning servers.
+
+Amazon CloudWatch: Monitoring and Logging
+ 
+Amazon CloudWatch is used to log and monitor the chatbot's activity and performance.
+
+CloudWatch logs capture logs from Lex and Lambda, helping developers track requests, responses, errors, and other activity.
+ 
+You can create CloudWatch metrics and alarms to monitor the performance and detect issues with the bot or Lambda functions (e.g., failed Lambda executions, errors in processing).
+
+	 
+3. AWS SERVICES
+3.1 Amazon CloudWatch
+3.2 Amazon X-Ray
+3.3 Amazon Lambda
+3.4Amazon Lex
+3.5 Solution Deployment
+3. Amazon Lex configuration and build
