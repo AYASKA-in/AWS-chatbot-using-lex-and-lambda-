@@ -19,7 +19,7 @@ The article explores the process of building a chatbot using Amazon Lex, a cloud
  Amazon X-ray
  
  Build and Test
- 
+
 2. SCENARIO
 
 2.1REQUIREMENTS
